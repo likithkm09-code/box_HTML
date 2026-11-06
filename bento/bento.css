@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bento{
+    height: 40%;
+    width: 90%;
+    background-color: black;
+    display:grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns:repeat(4,1fr) ;
+     grid-template-areas:
+     'c1 c3 c4 c5 ' 
+     'c1 c3 c4 c5 ' 
+     'c1 c6 c6 c5'
+     'c2 c6 c6 c7'
+     'c2 c8 c9 c9'
+     ;
+       gap: 10px;
+       padding: 15px;
+
+}
+
+.child1{
+    background-color: aliceblue;
+     grid-area: c9;
+}
+.child2{
+    background-color: rgb(39, 119, 189);
+    grid-area: c1;
+
+}
+.child3{
+    background-color: rgb(223, 83, 28);
+    grid-area: c2;
+    
+}
+.child4{
+    background-color: rgb(18, 221, 116);
+    grid-area: c3;
+    
+    
+}
+.child5{
+    background-color: rgb(108, 48, 52);
+    grid-area: c4;
+}
+.child6{
+    background-color: rgb(19, 206, 244);
+    grid-area: c5;
+}
+.child7{
+    background-color: rgb(98, 20, 232);
+    grid-area: c6;
+}
+.child8{
+    background-color: rgb(186, 25, 222);
+    grid-area: c7;
+}
+.child9{
+ background-color: rgb(201, 12, 44);   
+ grid-area: c8;
+}
+

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 20px;
+
+}
+.ki{
+    font-size: 100px;
+    color: red;
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

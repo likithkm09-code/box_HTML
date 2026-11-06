@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left,rgb(182, 182, 212),rgb(24, 24, 46));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border: 3px solid rgb(55, 234, 39);
+    border-radius: 20px;
+
+}
+form > h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left,rgb(9, 186, 189),rgb(0, 132, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bb{
+    height: 100px;
+    width: 100%;
+   
+    display:flex;
+    justify-content: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+form{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border: 3px solid rgb(172, 194, 183);
+    border-radius: 20px;
+
+}
+form > h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.field{
+    width: 100%;
+    margin: 20px 0 ;
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin-top: 5px;
+}
+label{
+    color: white;
+}
+button{
+    padding: 5px 15px ;
+    border-radius: 10px;
+}
+.field{
+    width: 100%;
+    margin: 20px 0 ;
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin-top: 5px;
+}
+
+label{
+    color: white;
+}
+button{
+    padding: 5px 15px ;
+    border-radius: 10px;
+}
+.field{
+    width: 100%;
+    margin: 20px 0 ;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin-top: 5px;
+}
+label{
+    color: white;
+}

@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+box-shadow: 20px;
+}
+
+.bento {
+    height: 40%;
+    width: 90%;
+    background-color: black;
+    border: 20px;
+    box-shadow: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas:
+        'c1 c1 c2 c2 c2 c3 c4 '
+        'c5 c6 c6 c6 c7 c3 c4'
+        'c5 c8 c8 c9 c7 c10 c11'
+        'c12 c12 c12 c9  c13 c13 c14';
+    gap: 10px;
+    padding: 15px; 
+
+}
+
+.child1 {
+    background-color: aliceblue;
+    grid-area: c1;
+}
+
+.child2 {
+    background-color: rgb(39, 119, 189);
+    grid-area: c2;
+
+}
+
+.child3 {
+    background-color: rgb(223, 83, 28);
+    grid-area: c3;
+
+}
+
+.child4 {
+    background-color: rgb(18, 221, 116);
+    grid-area: c4;
+
+}
+
+.child5 {
+    background-color: rgb(108, 48, 52);
+    grid-area: c5;
+}
+
+.child6 {
+    background-color: rgb(19, 206, 244);
+    grid-area: c6;
+}
+
+.child7 {
+    background-color: rgb(98, 20, 232);
+    grid-area: c7;
+}
+
+.child8 {
+    background-color: rgb(186, 25, 222);
+    grid-area: c8;
+}
+
+.child9 {
+    background-color: rgb(201, 12, 44);
+    grid-area: c9;
+}
+
+.child10 {
+    background-color: rgb(232, 212, 216);
+    grid-area: c10;
+}
+
+.child11 {
+    background-color: rgb(55, 34, 136);
+    grid-area: c11;
+}
+
+.child12 {
+    background-color: rgb(22, 214, 195);
+    grid-area: c12;
+}
+
+.child13 {
+    background-color: rgb(75, 101, 54);
+    grid-area: c13;
+}
+
+.child14 {
+    background-color: rgb(216, 243, 17);
+    grid-area: c14;
+}
+
+/* .child{
+    background: url();
+    background-size: cover;
+} */

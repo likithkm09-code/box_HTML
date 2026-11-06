@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color:  black solid;
+   
+}
+.container{
+     height: 400px;
+    width: 400px;
+    background:  black ;
+    justify-content:;
+    align-items: center;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background: green;
+    justify-self: cent;
+    }
+.box2{
+    height: 100px;
+    width: 100px;
+    background: rgb(188, 9, 51);
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background: rgb(140, 23, 235);
+}
+.ki{
+    color: rgb(15, 16, 15);
+    font-size: 80px;
+    
+}
+.hi{
+    color: rgb(212, 62, 62);
+    font-size: 40px;
+}

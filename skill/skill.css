@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black solid;
+    
+ }
+ body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ .card
+ {
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .card:hover .overlay{
+    top: -100px;
+    right: -100px;
+    width: 600px;
+    height: 600px;
+ }
+ .card{
+    color: rgb(30, 30, 184);
+  
+    
+ }
+ .overlay{
+    top: -40px;
+    right: -40px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    transition: 0.4s linear;
+    z-index: -1;
+    }
+.container{
+    background-color: black;
+    height:500px;
+    width: 10000px;
+    justify-content: center;
+    align-items: center;
+}

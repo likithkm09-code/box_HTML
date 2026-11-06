@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+.hi{
+    font-size: 80px;
+    color: blue;
+    padding: 20px;
+    margin: 40px;
+    background-color: yellow;
+    
+}
+.ki{
+    color: red;
+}

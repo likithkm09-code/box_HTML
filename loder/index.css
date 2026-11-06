@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+body{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+         height: 100px;
+       width: 100px;
+       background-color: red;
+        display: flex;
+    justify-items: center;
+    align-items: center;
+  animation: rotate 1s  linear infinite;
+  border-radius: 50%;
+
+
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+        scale: 1;
+        transform: matrix3d(0deg);
+        
+    }
+    to{
+      
+         filter: hue-rotate(360deg);
+         scale: 2;
+           transform: matrix3d(360deg);
+    }
+}
+

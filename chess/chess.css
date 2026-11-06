@@ -1,0 +1,36 @@
+
+.chess{
+    border: 10px solid rgb(100, 219, 9);
+    height: 400px;
+    width: 400px;
+    display: flex;
+       justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.row{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 227, 223);
+}
+
+
+.box{
+    background-color: rgb(243, 237, 237);
+    height: 50px;
+    width: 50px;
+ display: flex;
+ justify-content: center;
+    align-items: center;
+    font-size: 50px;
+color: pink;
+}
+.bl{
+    background-color: black;
+
+}

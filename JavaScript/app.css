@@ -1,0 +1,27 @@
+:root{
+    --bg:rgb(0, 0, 0);
+    --color:rgb(14, 194, 244);
+    --li:rgb(209, 209, 222);
+    --mar:10px;
+}
+.Dark{
+        --bg:rgb(22, 207, 224);
+    --color:rgb(2, 57, 2);
+    --li:rgb(78, 78, 84);
+    --mar:10px;
+
+
+}
+body{
+    background-color:var(--bg);
+ 
+}
+h1{
+    color:var(--color);
+margin: var(--mar);
+}
+p{
+  color: var(--li);
+  margin: var(--mar);
+}
+
